@@ -1,0 +1,27 @@
+.controls {
+    width: 300px;
+}
+
+.base input[type="number"] {
+    width: 60px;
+    margin-left: 5px;
+}
+
+.base label {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.templates {
+    display: flex;
+    flex-direction: column;
+}
+
+.finalState {
+    margin-top: 10px;
+}
+
+.button {
+    width: 100px;
+    margin-top: 10px;
+}
