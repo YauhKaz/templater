@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/templater/static/css/main.6f9d6e27.css",
+    "main.js": "/templater/static/js/main.67cbcc71.js",
+    "index.html": "/templater/index.html",
+    "main.6f9d6e27.css.map": "/templater/static/css/main.6f9d6e27.css.map",
+    "main.67cbcc71.js.map": "/templater/static/js/main.67cbcc71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f9d6e27.css",
+    "static/js/main.67cbcc71.js"
+  ]
+}
