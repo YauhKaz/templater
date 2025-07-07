@@ -1,0 +1,28 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.cell {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+
+.point {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
