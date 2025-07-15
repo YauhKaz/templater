@@ -63,6 +63,7 @@ export const Layout = () => {
     setConfig([]);
     setFirstClick(null);
     setPoint(null);
+    setIsFinal(false);
     setWarning("");
   };
 
