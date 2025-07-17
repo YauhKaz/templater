@@ -37,8 +37,8 @@ export const Layout = () => {
     const index = config.length + 1;
     const updatedConfig = [...config, {
       name: `cell_${index}`,
-      start: `${rowStart};${colStart}`,
-      end: `${rowEnd + 1};${colEnd + 1}`,
+      start: `${colStart};${rowStart}`,
+      end: `${colEnd + 1};${rowEnd + 1}`,
       template: selectedTemplate,
       final: isFinal
     }];
