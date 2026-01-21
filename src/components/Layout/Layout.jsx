@@ -6,8 +6,8 @@ import { WarningMessage } from '../WarningMessage/WarningMessage';
 import './Layout.css';
 
 export const Layout = () => {
-  const [rows, setRows] = useState(10);
-  const [cols, setCols] = useState(10);
+  const [rows, setRows] = useState(5);
+  const [cols, setCols] = useState(12);
   const [selectedCells, setSelectedCells] = useState(new Map());
   const [firstClick, setFirstClick] = useState(null);
   const [currentColor, setCurrentColor] = useState(getRandomColor());
@@ -145,6 +145,7 @@ export const Layout = () => {
           selectedCells={selectedCells}
           handleCellClick={handleCellClick}
           point={point}
+          config={config}
         />
         <ConfigOutput config={config} />
       </div>
